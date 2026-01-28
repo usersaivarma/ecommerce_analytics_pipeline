@@ -1,0 +1,201 @@
+product_id,product_name,category,subcategory,price,cost,stock_quantity,supplier,weight_kg
+PROD_00001,Image Smartphone,Electronics,Smartphones,320.28,179.09,99.0,Medina and Sons,9.07
+PROD_00002,Scientist Smartphone,Electronics,Smartphones,181.19,112.01,419.0,Reed-Cochran,6.49
+PROD_00003,Style Smartphone,Electronics,Smartphones,82.37,35.49,131.0,Clark-Lyons,2.05
+PROD_00004,Most Smartphone,Electronics,Smartphones,305.18,191.67,335.0,"Gallegos, Bauer and Davis",0.85
+PROD_00005,Spring Smartphone,Electronics,Smartphones,476.13,280.15,237.0,Scott Group,7.57
+PROD_00006,Every Smartphone,Electronics,Smartphones,382.34,204.43,473.0,Weeks PLC,8.83
+PROD_00007,Reason Smartphone,Electronics,Smartphones,325.07,226.24,165.0,"Lopez, Taylor and Willis",8.66
+PROD_00008,Hotel Smartphone,Electronics,Smartphones,317.34,141.31,34.0,"Gray, Chapman and Johnson",4.74
+PROD_00009,Science Laptop,Electronics,Laptops,319.38,204.05,302.0,Soto Inc,0.66
+PROD_00010,Cold Laptop,Electronics,Laptops,258.6,127.52,231.0,Alvarez-Rogers,0.47
+PROD_00011,Weight Laptop,Electronics,Laptops,190.68,92.69,330.0,Lopez LLC,8.66
+PROD_00012,Follow Laptop,Electronics,Laptops,429.09,250.8,259.0,Owens and Sons,3.91
+PROD_00013,Soldier Laptop,Electronics,Laptops,294.36,202.01,378.0,Gonzales PLC,8.97
+PROD_00014,Loss Laptop,Electronics,Laptops,230.37,148.12,333.0,"Johnston, Graham and Ross",1.96
+PROD_00015,They Laptop,Electronics,Laptops,306.45,168.67,490.0,King LLC,0.71
+PROD_00016,Plant Laptop,Electronics,Laptops,60.72,40.67,175.0,Olson-Morales,9.83
+PROD_00017,Amount Tablet,Electronics,Tablets,51.32,30.48,20.0,Hines PLC,2.55
+PROD_00018,Box Tablet,Electronics,Tablets,224.5,119.4,267.0,Simmons-Adams,6.14
+PROD_00019,Participant Tablet,Electronics,Tablets,188.31,127.18,198.0,Watkins-Martin,4.15
+PROD_00020,Compare Tablet,Electronics,Tablets,175.8,101.85,404.0,Tanner-Sanford,6.35
+PROD_00021,Yes Tablet,Electronics,Tablets,173.98,86.8,,"Gonzalez, Compton and Walton",6.82
+PROD_00022,Case Tablet,Electronics,Tablets,149.23,92.09,336.0,"Cook, Choi and Waller",9.65
+PROD_00023,For Tablet,Electronics,Tablets,305.32,135.9,41.0,Solis Group,5.87
+PROD_00024,Individual Tablet,Electronics,Tablets,79.3,40.04,495.0,Murray Ltd,6.59
+PROD_00025,Choose Headphone,Electronics,Headphones,334.45,146.72,362.0,Andrade LLC,9.39
+PROD_00026,Food Headphone,Electronics,Headphones,161.7,82.95,405.0,Lopez and Sons,3.35
+PROD_00027,Leave Headphone,Electronics,Headphones,72.62,44.36,484.0,Ramsey and Sons,7.41
+PROD_00028,Reveal Headphone,Electronics,Headphones,345.85,192.96,330.0,"Singleton, Brooks and Woods",6.74
+PROD_00029,Guy Headphone,Electronics,Headphones,259.16,105.08,158.0,Ruiz Ltd,1.88
+PROD_00030,Indeed Headphone,Electronics,Headphones,114.95,78.66,248.0,"Lewis, Kennedy and Bennett",2.0
+PROD_00031,Major Headphone,Electronics,Headphones,499.99,223.24,151.0,"Sanchez, Stark and Hughes",8.46
+PROD_00032,Friend Headphone,Electronics,Headphones,59.56,37.6,427.0,Ross LLC,7.41
+PROD_00033,Water Camera,Electronics,Cameras,268.0,160.42,448.0,Weiss-Cross,7.69
+PROD_00034,Language Camera,Electronics,Cameras,74.21,38.07,83.0,"Long, Jones and Freeman",1.89
+PROD_00035,Sit Camera,Electronics,Cameras,349.49,205.3,462.0,"Johnson, Blackwell and Thompson",1.74
+PROD_00036,Easy Camera,Electronics,Cameras,224.46,117.45,346.0,Cox-Mason,7.22
+PROD_00037,Ability Camera,Electronics,Cameras,485.1,282.9,385.0,"Greene, Sanders and Jones",7.51
+PROD_00038,Drug Camera,Electronics,Cameras,229.97,128.83,158.0,Porter Inc,9.66
+PROD_00039,Development Camera,Electronics,Cameras,394.34,264.68,99.0,Graham-Morgan,3.74
+PROD_00040,Ready Camera,Electronics,Cameras,474.09,329.65,236.0,Simmons LLC,7.72
+PROD_00041,Foreign Shirt,Clothing,Shirts,391.28,215.55,214.0,Leonard-Castillo,9.67
+PROD_00042,Every Shirt,Clothing,Shirts,410.28,262.73,70.0,White-Sanders,8.74
+PROD_00043,Nation Shirt,Clothing,Shirts,35.57,19.36,190.0,Marshall Inc,5.59
+PROD_00044,Half Shirt,Clothing,Shirts,60.27,39.4,435.0,"Oconnor, Rios and Sullivan",1.33
+PROD_00045,Surface Shirt,Clothing,Shirts,51.1,22.9,230.0,Martin and Sons,9.06
+PROD_00046,Paper Shirt,Clothing,Shirts,82.2,43.67,484.0,"Cruz, Gibson and Tucker",9.11
+PROD_00047,Religious Shirt,Clothing,Shirts,410.18,272.93,476.0,Henderson-Brown,0.36
+PROD_00048,Large Shirt,Clothing,Shirts,36.1,19.88,120.0,Harmon-Wilson,3.92
+PROD_00049,Surface Pant,Clothing,Pants,49.99,23.36,163.0,Shaw-Norman,9.32
+PROD_00050,Seem Pant,Clothing,Pants,421.2,250.61,405.0,Richard-Bonilla,1.55
+PROD_00051,Brother Pant,Clothing,Pants,28.77,19.43,241.0,Pollard PLC,6.99
+PROD_00052,Song Pant,Clothing,Pants,78.01,47.72,,Berg-Miller,6.19
+PROD_00053,Account Pant,Clothing,Pants,453.87,184.14,110.0,Vaughan-Zimmerman,8.37
+PROD_00054,Evening Pant,Clothing,Pants,278.91,172.41,270.0,Robertson PLC,4.29
+PROD_00055,Should Pant,Clothing,Pants,390.32,183.95,62.0,Graham-Marshall,0.57
+PROD_00056,Among Pant,Clothing,Pants,215.71,137.66,234.0,Parrish Group,0.72
+PROD_00057,Hit Dresse,Clothing,Dresses,419.98,230.97,274.0,Small Ltd,0.26
+PROD_00058,Hope Dresse,Clothing,Dresses,262.53,124.07,73.0,Simmons-Leonard,2.98
+PROD_00059,Speak Dresse,Clothing,Dresses,10.77,5.45,292.0,Daniels and Sons,4.22
+PROD_00060,Finally Dresse,Clothing,Dresses,335.54,142.83,499.0,Butler-Griffin,3.67
+PROD_00061,Finish Dresse,Clothing,Dresses,477.17,268.75,402.0,"Johnson, Rodriguez and Dennis",9.88
+PROD_00062,Night Dresse,Clothing,Dresses,281.53,145.59,240.0,"Foster, Thompson and Nichols",0.53
+PROD_00063,Card Dresse,Clothing,Dresses,199.57,102.18,382.0,"Thomas, Snyder and Orozco",0.26
+PROD_00064,Hair Dresse,Clothing,Dresses,396.37,199.55,375.0,Barker-Sanchez,6.61
+PROD_00065,That Shoe,Clothing,Shoes,60.8,34.93,387.0,"Hoover, Carroll and Williams",3.39
+PROD_00066,General Shoe,Clothing,Shoes,31.72,17.88,416.0,Johnson-Lynch,6.46
+PROD_00067,Shake Shoe,Clothing,Shoes,416.89,252.39,356.0,"Burnett, Garcia and Hunt",4.84
+PROD_00068,Share Shoe,Clothing,Shoes,99.32,43.75,366.0,Morgan Ltd,7.78
+PROD_00069,So Shoe,Clothing,Shoes,234.26,114.33,22.0,Henderson-Johnson,7.93
+PROD_00070,Skin Shoe,Clothing,Shoes,444.04,219.66,158.0,Griffith-Newton,5.2
+PROD_00071,Base Shoe,Clothing,Shoes,494.67,278.45,129.0,Sanford-Leon,0.46
+PROD_00072,Own Shoe,Clothing,Shoes,326.98,158.86,441.0,Cooley-Gilbert,7.83
+PROD_00073,Notice Accessorie,Clothing,Accessories,434.24,216.94,,Benson Inc,8.01
+PROD_00074,House Accessorie,Clothing,Accessories,224.11,116.54,225.0,"Kennedy, Hodges and Kim",8.96
+PROD_00075,Skin Accessorie,Clothing,Accessories,199.46,138.05,254.0,"Osborne, Hill and Powers",6.95
+PROD_00076,Point Accessorie,Clothing,Accessories,190.0,121.45,136.0,Browning-Gregory,8.03
+PROD_00077,Explain Accessorie,Clothing,Accessories,366.27,155.18,308.0,Russell Inc,9.95
+PROD_00078,Station Accessorie,Clothing,Accessories,98.42,48.04,52.0,Sandoval-Hill,0.89
+PROD_00079,Maintain Accessorie,Clothing,Accessories,333.85,164.24,308.0,"Tyler, Reid and Davis",7.2
+PROD_00080,Down Accessorie,Clothing,Accessories,91.66,48.87,228.0,Fletcher and Sons,0.52
+PROD_00081,Attack Furnitur,Home & Garden,Furniture,436.32,220.68,222.0,"Roberts, Joseph and Wilcox",2.82
+PROD_00082,Per Furnitur,Home & Garden,Furniture,490.21,335.49,38.0,Walters-Murphy,6.74
+PROD_00083,Improve Furnitur,Home & Garden,Furniture,209.04,115.79,383.0,Spears-Smith,6.83
+PROD_00084,Grow Furnitur,Home & Garden,Furniture,476.87,211.17,311.0,Reed-Wallace,6.81
+PROD_00085,Maintain Furnitur,Home & Garden,Furniture,224.7,98.39,120.0,"Porter, Patel and Jackson",7.81
+PROD_00086,In Furnitur,Home & Garden,Furniture,189.5,97.57,290.0,Powell-Guerrero,0.42
+PROD_00087,Owner Furnitur,Home & Garden,Furniture,85.18,45.57,189.0,Welch PLC,3.78
+PROD_00088,Hair Furnitur,Home & Garden,Furniture,383.91,219.66,271.0,Clark PLC,3.73
+PROD_00089,Hope Kitchenwar,Home & Garden,Kitchenware,164.05,79.34,491.0,Carter-Stewart,1.22
+PROD_00090,Represent Kitchenwar,Home & Garden,Kitchenware,370.48,203.66,198.0,Johnson-Weber,9.14
+PROD_00091,Compare Kitchenwar,Home & Garden,Kitchenware,67.7,42.82,360.0,"Bell, Reynolds and Forbes",4.52
+PROD_00092,Agency Kitchenwar,Home & Garden,Kitchenware,498.22,241.97,469.0,Hawkins-Henry,9.99
+PROD_00093,Easy Kitchenwar,Home & Garden,Kitchenware,108.09,47.64,37.0,Morse-Anderson,4.58
+PROD_00094,Policy Kitchenwar,Home & Garden,Kitchenware,450.35,240.28,44.0,Davis and Sons,8.12
+PROD_00095,Development Kitchenwar,Home & Garden,Kitchenware,484.11,336.93,341.0,Duncan and Sons,3.54
+PROD_00096,Treatment Kitchenwar,Home & Garden,Kitchenware,41.82,23.53,456.0,Wang Ltd,3.07
+PROD_00097,Institution Deco,Home & Garden,Decor,87.18,53.43,358.0,"Ortiz, Potter and Barnes",6.41
+PROD_00098,Place Deco,Home & Garden,Decor,398.91,220.45,62.0,Flores-Cox,9.85
+PROD_00099,Born Deco,Home & Garden,Decor,398.11,187.52,252.0,"Dyer, Horne and Gill",0.36
+PROD_00100,Friend Deco,Home & Garden,Decor,281.47,143.74,411.0,"Nichols, Myers and Trevino",9.83
+PROD_00101,Miss Deco,Home & Garden,Decor,73.59,48.96,33.0,Mitchell-Middleton,3.16
+PROD_00102,Close Deco,Home & Garden,Decor,499.8,307.71,269.0,Ross Inc,4.17
+PROD_00103,No Deco,Home & Garden,Decor,210.62,120.57,64.0,Hines-Douglas,9.73
+PROD_00104,Result Deco,Home & Garden,Decor,324.75,173.74,348.0,Reyes Ltd,5.22
+PROD_00105,Kid Tool,Home & Garden,Tools,72.88,47.28,282.0,Jenkins-Fields,6.43
+PROD_00106,Present Tool,Home & Garden,Tools,99.16,68.41,221.0,Taylor PLC,5.08
+PROD_00107,Most Tool,Home & Garden,Tools,435.42,282.77,265.0,Greene Ltd,1.61
+PROD_00108,Issue Tool,Home & Garden,Tools,90.68,45.05,363.0,Nguyen and Sons,2.33
+PROD_00109,Compare Tool,Home & Garden,Tools,474.27,263.54,145.0,"Garrett, Cohen and Crane",8.47
+PROD_00110,Agency Tool,Home & Garden,Tools,132.8,78.42,282.0,"Guzman, Clarke and Price",2.82
+PROD_00111,Much Tool,Home & Garden,Tools,316.26,184.8,47.0,Jefferson and Sons,5.08
+PROD_00112,Lot Tool,Home & Garden,Tools,92.63,63.22,78.0,Sharp-Allen,1.79
+PROD_00113,Marriage Beddin,Home & Garden,Bedding,315.99,211.9,172.0,"Morse, Morris and Carter",8.44
+PROD_00114,Wall Beddin,Home & Garden,Bedding,286.17,185.32,14.0,Clark Group,0.9
+PROD_00115,Machine Beddin,Home & Garden,Bedding,474.79,299.74,135.0,Sutton Group,6.55
+PROD_00116,Effort Beddin,Home & Garden,Bedding,385.81,202.54,327.0,Kaufman PLC,0.4
+PROD_00117,Put Beddin,Home & Garden,Bedding,445.61,251.18,328.0,Lara LLC,9.57
+PROD_00118,Turn Beddin,Home & Garden,Bedding,246.64,158.2,350.0,Sanchez Ltd,4.12
+PROD_00119,Available Beddin,Home & Garden,Bedding,232.24,140.87,80.0,Goodman Ltd,4.45
+PROD_00120,Research Beddin,Home & Garden,Bedding,247.28,114.05,310.0,Camacho-Cowan,1.52
+PROD_00121,Training Fictio,Books,Fiction,432.13,214.25,440.0,Jones-Butler,3.52
+PROD_00122,Ever Fictio,Books,Fiction,205.37,129.01,263.0,"Medina, Baldwin and Lawson",5.66
+PROD_00123,None Fictio,Books,Fiction,166.37,89.83,136.0,"Johnson, Castillo and Barber",4.55
+PROD_00124,Final Fictio,Books,Fiction,79.03,32.81,484.0,Clayton-Hardy,3.9
+PROD_00125,Among Fictio,Books,Fiction,311.53,147.82,443.0,Ross-Ho,9.03
+PROD_00126,Professional Fictio,Books,Fiction,408.6,277.9,369.0,"Alexander, Cobb and Garcia",3.2
+PROD_00127,Throw Fictio,Books,Fiction,383.93,210.96,263.0,Chang-Riley,4.72
+PROD_00128,Strong Fictio,Books,Fiction,440.75,242.06,46.0,Bowen LLC,9.46
+PROD_00129,Itself Non-Fictio,Books,Non-Fiction,257.67,177.79,110.0,"Morgan, Durham and Pope",5.88
+PROD_00130,Develop Non-Fictio,Books,Non-Fiction,33.84,16.39,305.0,Davis-May,8.84
+PROD_00131,Back Non-Fictio,Books,Non-Fiction,330.59,178.91,274.0,Nolan-Vasquez,0.18
+PROD_00132,Election Non-Fictio,Books,Non-Fiction,62.67,27.59,135.0,Peterson-Norris,7.3
+PROD_00133,Give Non-Fictio,Books,Non-Fiction,384.29,195.9,205.0,Lyons-Carroll,0.61
+PROD_00134,Phone Non-Fictio,Books,Non-Fiction,285.29,145.14,147.0,Juarez and Sons,0.83
+PROD_00135,Nearly Non-Fictio,Books,Non-Fiction,257.09,161.79,143.0,Johnson-Beard,8.27
+PROD_00136,Organization Non-Fictio,Books,Non-Fiction,315.39,183.97,65.0,Reeves-Parker,9.75
+PROD_00137,Sense Educationa,Books,Educational,203.01,129.62,173.0,Bradley LLC,5.62
+PROD_00138,May Educationa,Books,Educational,189.15,83.85,308.0,"Gonzales, Phillips and Manning",5.14
+PROD_00139,Run Educationa,Books,Educational,255.04,105.48,70.0,Thomas LLC,7.16
+PROD_00140,Town Educationa,Books,Educational,403.94,224.51,76.0,Scott-Perez,6.1
+PROD_00141,Today Educationa,Books,Educational,262.6,130.88,313.0,Aguilar and Sons,3.25
+PROD_00142,Pattern Educationa,Books,Educational,202.55,118.48,431.0,Green Ltd,3.06
+PROD_00143,Movie Educationa,Books,Educational,174.82,113.37,272.0,"Berg, Black and Woods",4.95
+PROD_00144,We Educationa,Books,Educational,285.83,155.05,8.0,Compton Ltd,3.75
+PROD_00145,Clearly Comic,Books,Comics,340.17,236.07,298.0,"Farrell, Edwards and Brooks",3.15
+PROD_00146,Tree Comic,Books,Comics,450.4,298.0,322.0,Wong-Harrell,0.36
+PROD_00147,Meet Comic,Books,Comics,242.55,167.39,,Webb Group,9.72
+PROD_00148,Address Comic,Books,Comics,293.45,137.41,26.0,"Arroyo, Peterson and Parker",5.88
+PROD_00149,Door Comic,Books,Comics,93.55,55.07,317.0,Ramirez Ltd,7.77
+PROD_00150,Strategy Comic,Books,Comics,196.29,126.9,124.0,Santos LLC,0.41
+PROD_00151,Moment Comic,Books,Comics,474.62,205.5,9.0,Hudson-Fowler,4.47
+PROD_00152,Actually Comic,Books,Comics,215.2,112.74,104.0,"Singleton, Logan and Warren",4.16
+PROD_00153,Drive Magazine,Books,Magazines,389.74,263.53,446.0,"Harris, Beck and Ross",8.5
+PROD_00154,Bit Magazine,Books,Magazines,366.43,224.16,265.0,Romero-Nelson,2.15
+PROD_00155,Nor Magazine,Books,Magazines,169.27,101.34,269.0,"Medina, Miller and Yates",3.83
+PROD_00156,Likely Magazine,Books,Magazines,478.78,257.54,272.0,"Mills, Sanchez and Robles",3.49
+PROD_00157,Cover Magazine,Books,Magazines,183.6,115.96,,"Mayer, Mathews and Perez",6.84
+PROD_00158,Series Magazine,Books,Magazines,403.79,193.54,247.0,Thompson-Krause,2.0
+PROD_00159,Exactly Magazine,Books,Magazines,130.79,74.21,115.0,"Ramirez, Paul and Quinn",9.42
+PROD_00160,Whose Magazine,Books,Magazines,491.31,310.19,360.0,Escobar and Sons,2.15
+PROD_00161,Necessary Equipmen,Sports,Equipment,355.44,175.98,178.0,Brown-Perez,5.65
+PROD_00162,Pay Equipmen,Sports,Equipment,467.9,288.46,147.0,"Woods, Garcia and Keith",1.31
+PROD_00163,Approach Equipmen,Sports,Equipment,341.54,175.52,202.0,Tyler-Jones,8.2
+PROD_00164,Mean Equipmen,Sports,Equipment,477.76,306.43,148.0,Ramos Group,0.52
+PROD_00165,Decade Equipmen,Sports,Equipment,478.1,202.58,473.0,Daniels and Sons,4.48
+PROD_00166,Piece Equipmen,Sports,Equipment,135.66,73.76,103.0,Evans-Smith,8.3
+PROD_00167,Law Equipmen,Sports,Equipment,142.86,81.23,139.0,Cortez Group,1.46
+PROD_00168,Star Equipmen,Sports,Equipment,311.68,179.54,124.0,"Lee, Shaffer and Mendez",0.6
+PROD_00169,Loss Appare,Sports,Apparel,453.54,212.12,119.0,King Group,0.62
+PROD_00170,Plant Appare,Sports,Apparel,212.52,130.74,51.0,Vasquez-Thompson,6.84
+PROD_00171,Movement Appare,Sports,Apparel,77.36,53.33,500.0,Palmer-Bean,9.3
+PROD_00172,Firm Appare,Sports,Apparel,209.38,142.49,449.0,Camacho-Wright,4.81
+PROD_00173,Face Appare,Sports,Apparel,328.76,206.06,147.0,"Hoffman, Parker and Alexander",3.28
+PROD_00174,Something Appare,Sports,Apparel,326.49,219.53,45.0,Freeman LLC,6.56
+PROD_00175,Walk Appare,Sports,Apparel,123.79,76.95,435.0,"Ruiz, Martin and Jones",9.37
+PROD_00176,Lay Appare,Sports,Apparel,457.48,207.02,451.0,"Torres, Schaefer and Ramos",8.39
+PROD_00177,Pull Footwea,Sports,Footwear,467.62,192.15,428.0,"Ryan, White and Maxwell",4.03
+PROD_00178,Source Footwea,Sports,Footwear,252.74,172.11,492.0,Lewis PLC,8.74
+PROD_00179,Focus Footwea,Sports,Footwear,151.84,62.44,152.0,Miranda-Kennedy,5.72
+PROD_00180,Reveal Footwea,Sports,Footwear,62.58,43.49,145.0,Pennington-Clark,4.6
+PROD_00181,Remember Footwea,Sports,Footwear,324.24,180.7,455.0,Morris and Sons,9.39
+PROD_00182,Space Footwea,Sports,Footwear,427.02,230.76,98.0,Floyd-Phelps,8.11
+PROD_00183,Poor Footwea,Sports,Footwear,172.04,106.55,331.0,"Moore, Frye and Zavala",2.65
+PROD_00184,Ready Footwea,Sports,Footwear,101.24,62.87,404.0,"Kramer, Chan and Adams",3.02
+PROD_00185,Worker Outdoo,Sports,Outdoor,340.46,155.91,312.0,Kennedy-Chase,8.58
+PROD_00186,Floor Outdoo,Sports,Outdoor,449.55,291.35,263.0,Thomas-Cook,3.35
+PROD_00187,Health Outdoo,Sports,Outdoor,206.41,88.47,71.0,"Stewart, Parker and Elliott",4.83
+PROD_00188,Sound Outdoo,Sports,Outdoor,468.55,188.38,196.0,Smith-Case,2.43
+PROD_00189,Around Outdoo,Sports,Outdoor,379.34,260.31,154.0,Gomez-Trujillo,5.87
+PROD_00190,Loss Outdoo,Sports,Outdoor,290.71,139.09,184.0,Smith-Bush,6.96
+PROD_00191,Detail Outdoo,Sports,Outdoor,40.44,17.61,157.0,"Moran, Phillips and Brooks",1.68
+PROD_00192,Fund Outdoo,Sports,Outdoor,346.18,234.34,454.0,Gibbs-Nguyen,7.07
+PROD_00193,Opportunity Fitnes,Sports,Fitness,162.38,70.67,469.0,"Gonzalez, Lewis and Shaw",9.41
+PROD_00194,Total Fitnes,Sports,Fitness,190.1,88.64,490.0,Rodriguez-Sanchez,1.42
+PROD_00195,Gas Fitnes,Sports,Fitness,85.06,53.1,310.0,"Castillo, Griffith and Harrison",3.8
+PROD_00196,Your Fitnes,Sports,Fitness,353.95,238.51,387.0,Harrington Group,5.42
+PROD_00197,Rise Fitnes,Sports,Fitness,335.41,156.14,126.0,"Tucker, Ramirez and Lawson",6.84
+PROD_00198,How Fitnes,Sports,Fitness,301.95,192.1,269.0,Garcia Ltd,4.52
+PROD_00199,Guess Fitnes,Sports,Fitness,354.85,150.25,288.0,Medina-Kim,1.21
+PROD_00200,Feel Fitnes,Sports,Fitness,416.1,279.15,103.0,Ruiz Ltd,5.77

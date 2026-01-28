@@ -139,30 +139,6 @@ ecommerce-analytics/
 
 ---
 
-## Datasets to Use
-
-### Option 1: Kaggle Datasets (Recommended)
-1. **Brazilian E-Commerce Public Dataset by Olist**
-   - URL: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-   - Contains: 100k orders, customer data, products, reviews
-   - Perfect size for local processing
-
-2. **Online Retail Dataset**
-   - URL: https://www.kaggle.com/datasets/vijayuv/onlineretail
-   - Contains: 500k transactions
-   - Good for time-series analysis
-
-### Option 2: Generate Synthetic Data
-Use Python's Faker library to generate realistic data:
-```python
-from faker import Faker
-import pandas as pd
-import random
-
-# Create synthetic e-commerce data
-# (Code example provided in implementation)
-```
-
 ### Dataset Schema
 
 **orders.csv**
