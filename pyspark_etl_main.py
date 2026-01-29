@@ -4,6 +4,7 @@ Main orchestration script
 """
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
+from pyspark.sql.functions import countDistinct
 from pyspark.sql.window import Window
 from datetime import datetime
 import sys
@@ -13,8 +14,8 @@ import os
 POSTGRES_HOST = os.getenv("POSTGRES_HOST", "localhost")
 POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
 POSTGRES_DB = os.getenv("POSTGRES_DB", "ecommerce_analytics")
-POSTGRES_USER = os.getenv("POSTGRES_USER", "ecommerce_user")
-POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "ecommerce_pass")
+POSTGRES_USER = os.getenv("POSTGRES_USER", "user_sai_varma")
+POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "pwd_postgres")
 
 # JDBC URL
 JDBC_URL = f"jdbc:postgresql://{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}"

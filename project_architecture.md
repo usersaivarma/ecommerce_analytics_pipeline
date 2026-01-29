@@ -139,25 +139,6 @@ ecommerce-analytics/
 
 ---
 
-### Dataset Schema
-
-**orders.csv**
-- order_id, customer_id, order_date, delivery_date, status, total_amount
-
-**customers.csv**
-- customer_id, name, email, city, state, country, signup_date
-
-**products.csv**
-- product_id, category, subcategory, price, stock_quantity
-
-**order_items.csv**
-- order_item_id, order_id, product_id, quantity, price
-
-**reviews.csv**
-- review_id, order_id, rating, review_text, review_date
-
----
-
 ## Implementation Phases
 
 ### Phase 1: Data Setup & PySpark ETL (Week 1)

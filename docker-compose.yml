@@ -1,4 +1,4 @@
-version: '3.8'
+version: '5.0.1'
 
 services:
   # PostgreSQL Database
@@ -6,8 +6,8 @@ services:
     image: postgres:15-alpine
     container_name: ecommerce_db
     environment:
-      POSTGRES_USER: ${POSTGRES_USER:-ecommerce_user}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ecommerce_pass}
+      POSTGRES_USER: ${POSTGRES_USER:-user_sai_varma}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-pwd_postgres}
       POSTGRES_DB: ${POSTGRES_DB:-ecommerce_analytics}
     ports:
       - "5432:5432"
