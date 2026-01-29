@@ -82,9 +82,6 @@ ecommerce-analytics/
 │   ├── requirements.txt
 │   ├── spark_jobs/
 │   │   ├── __init__.py
-│   │   ├── extract.py          # Data loading
-│   │   ├── transform.py        # Transformations
-│   │   ├── load.py             # Save to DB/files
 │   │   └── main.py             # Orchestrator
 │   ├── config/
 │   │   └── spark_config.py

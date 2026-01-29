@@ -58,9 +58,6 @@ ecommerce-analytics/
 │   ├── requirements.txt
 │   └── spark_jobs/
 │       ├── main.py           # Main ETL orchestrator
-│       ├── extract.py        # Data extraction
-│       ├── transform.py      # Transformations
-│       └── load.py           # Data loading
 │
 ├── api/
 │   ├── Dockerfile
