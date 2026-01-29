@@ -217,10 +217,10 @@ ORDER BY date DESC;
 -- ============================================
 -- Grant Permissions
 -- ============================================
-GRANT USAGE ON SCHEMA analytics TO ecommerce_user;
-GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA analytics TO ecommerce_user;
-GRANT SELECT ON ALL TABLES IN SCHEMA analytics TO ecommerce_user;
-GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA analytics TO ecommerce_user;
+GRANT USAGE ON SCHEMA analytics TO user_sai_varma;
+GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA analytics TO user_sai_varma;
+GRANT SELECT ON ALL TABLES IN SCHEMA analytics TO user_sai_varma;
+GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA analytics TO user_sai_varma;
 
 -- ============================================
 -- Sample Data Quality Checks
