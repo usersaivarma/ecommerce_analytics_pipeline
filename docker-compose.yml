@@ -32,8 +32,8 @@ services:
       POSTGRES_HOST: postgres
       POSTGRES_PORT: 5432
       POSTGRES_DB: ${POSTGRES_DB:-ecommerce_analytics}
-      POSTGRES_USER: ${POSTGRES_USER:-ecommerce_user}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ecommerce_pass}
+      POSTGRES_USER: ${POSTGRES_USER:-user_sai_varma}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-pwd_postgres}
     volumes:
       - ./data:/app/data
       - ./etl:/app
@@ -55,8 +55,8 @@ services:
       POSTGRES_HOST: postgres
       POSTGRES_PORT: 5432
       POSTGRES_DB: ${POSTGRES_DB:-ecommerce_analytics}
-      POSTGRES_USER: ${POSTGRES_USER:-ecommerce_user}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ecommerce_pass}
+      POSTGRES_USER: ${POSTGRES_USER:-user_sai_varma}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-pwd_postgres}
     ports:
       - "8000:8000"
     volumes:
