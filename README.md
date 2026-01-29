@@ -2,21 +2,6 @@
 
 A complete end-to-end data engineering project demonstrating ETL with PySpark, containerized applications, and interactive dashboards.
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Technologies Used](#technologies-used)
-- [Prerequisites](#prerequisites)
-- [Quick Start](#quick-start)
-- [Project Structure](#project-structure)
-- [Usage Guide](#usage-guide)
-- [API Documentation](#api-documentation)
-- [Development](#development)
-- [Deployment Considerations](#deployment-considerations)
-- [Troubleshooting](#troubleshooting)
-- [Learning Outcomes](#learning-outcomes)
-
 ## 🎯 Overview
 
 This project implements a production-grade analytics pipeline for e-commerce data, featuring:
