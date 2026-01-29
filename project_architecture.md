@@ -69,8 +69,6 @@ ecommerce-analytics/
 ├── README.md
 ├── docker-compose.yml
 ├── Makefile
-├── .env.example
-├── requirements.txt
 │
 ├── data/
 │   ├── raw/                    # Raw CSV files

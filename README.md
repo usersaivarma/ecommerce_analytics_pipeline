@@ -46,7 +46,6 @@ ecommerce-analytics/
 ├── README.md                   # This file
 ├── docker-compose.yml          # Service orchestration
 ├── Makefile                    # Automation commands
-├── .env.example               # Environment template
 │
 ├── data/
 │   ├── raw/                   # Raw CSV data
