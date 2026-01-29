@@ -292,6 +292,50 @@ async def get_top_products(
         logger.error(f"Error in get_top_products: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.get("/products/categories")
+async def get_category_performance():
+    """Get performance metrics by category"""
+    try:
+        db = SessionLocal()
+        
+        query = """
+            SELECT 
+                category,
+                total_revenue,
+                total_orders,
+                unique_products,
+                units_sold,
+                avg_price,
+                avg_rating,
+                total_reviews
+            FROM analytics.category_performance
+            ORDER BY total_revenue DESC
+        """
+        
+        results = db.execute(text(query)).fetchall()
+        db.close()
+        
+        return {
+            "count": len(results),
+            "data": [
+                {
+                    "category": row[0],
+                    "total_revenue": float(row[1]),
+                    "total_orders": row[2],
+                    "unique_products": row[3],
+                    "units_sold": row[4],
+                    "avg_price": float(row[5]) if row[5] else None,
+                    "avg_rating": float(row[6]) if row[6] else None,
+                    "total_reviews": row[7]
+                }
+                for row in results
+            ]
+        }
+        
+    except Exception as e:
+        logger.error(f"Error in get_category_performance: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @app.get("/products/{product_id}")
 async def get_product_details(product_id: str):
     """Get detailed metrics for a specific product"""
@@ -346,51 +390,7 @@ async def get_product_details(product_id: str):
     except Exception as e:
         logger.error(f"Error in get_product_details: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-
-@app.get("/products/categories")
-async def get_category_performance():
-    """Get performance metrics by category"""
-    try:
-        db = SessionLocal()
-        
-        query = """
-            SELECT 
-                category,
-                total_revenue,
-                total_orders,
-                unique_products,
-                units_sold,
-                avg_price,
-                avg_rating,
-                total_reviews
-            FROM analytics.category_performance
-            ORDER BY total_revenue DESC
-        """
-        
-        results = db.execute(text(query)).fetchall()
-        db.close()
-        
-        return {
-            "count": len(results),
-            "data": [
-                {
-                    "category": row[0],
-                    "total_revenue": float(row[1]),
-                    "total_orders": row[2],
-                    "unique_products": row[3],
-                    "units_sold": row[4],
-                    "avg_price": float(row[5]) if row[5] else None,
-                    "avg_rating": float(row[6]) if row[6] else None,
-                    "total_reviews": row[7]
-                }
-                for row in results
-            ]
-        }
-        
-    except Exception as e:
-        logger.error(f"Error in get_category_performance: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
-
+    
 # ============================================
 # Customer Endpoints
 # ============================================
