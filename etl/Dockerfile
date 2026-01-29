@@ -24,4 +24,4 @@ COPY spark_jobs/ ./spark_jobs/
 ENV PYTHONUNBUFFERED=1
 
 # Run the ETL job
-CMD ["python", "spark_jobs/main.py"]
+CMD ["python3", "spark_jobs/main.py"]

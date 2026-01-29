@@ -5,10 +5,13 @@ Main orchestration script
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 from pyspark.sql.functions import countDistinct
+from pyspark.sql.functions import col, round
+from pyspark.sql.types import DecimalType, DoubleType, FloatType
 from pyspark.sql.window import Window
 from datetime import datetime
 import sys
 import os
+from sqlalchemy import create_engine, text
 
 # Database configuration
 POSTGRES_HOST = os.getenv("POSTGRES_HOST", "localhost")
@@ -24,6 +27,9 @@ JDBC_PROPERTIES = {
     "password": POSTGRES_PASSWORD,
     "driver": "org.postgresql.Driver"
 }
+
+# Create engine
+engine = create_engine(f"postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}")
 
 # Data paths
 DATA_DIR = "/app/data"
@@ -115,7 +121,7 @@ def clean_and_transform_data(customers, products, orders, order_items, reviews):
         orders = orders.dropDuplicates(['order_id'])
         
         # 2. Handle missing values
-        orders = orders.fillna({'delivery_date': None, 'status': 'unknown'})
+        orders = orders.fillna({'status': 'unknown'})
         products = products.fillna({'stock_quantity': 0})
         
         # 3. Convert date columns
@@ -234,6 +240,13 @@ def create_product_metrics(products, order_items, orders, reviews):
                 'last_sold_date'
             )
         
+        product_metrics = product_metrics.withColumn(
+            "avg_discount_rate",
+            when(col("avg_discount_rate").isNotNull(),
+                col("avg_discount_rate") / 100
+            ).otherwise(None)
+        )
+            
         print(f"  • Created metrics for {product_metrics.count()} products")
         log_step("Creating Product Metrics", start)
         
@@ -309,6 +322,7 @@ def create_category_performance(products, order_items, orders):
     
     try:
         # Join items with delivered orders and products
+        products = products.withColumnRenamed("price", "product_price") #renaming to avoid ambiguity with price column in other tables
         category_sales = order_items \
             .join(orders.filter(col('status') == 'delivered'), 'order_id') \
             .join(products, 'product_id') \
@@ -379,14 +393,67 @@ def create_geographic_performance(customers, orders):
         print(f"❌ Error creating geographic performance: {e}")
         raise
 
+def truncate_table(table_name):
+    with engine.begin() as conn:
+        conn.execute(text(f"TRUNCATE TABLE analytics.{table_name}"))
+        print(f"  ✓ Truncated analytics.{table_name}")
+
+#precision map for numerical columns
+DECIMAL_PRECISION_MAP = {
+    # money
+    "total_revenue": 2,
+    "avg_order_value": 2,
+    "avg_price": 2,
+    "current_price": 2,
+
+    # ratios / rates
+    "return_rate": 4,
+    "avg_discount_rate": 4,
+
+    # ratings
+    "avg_rating": 2,
+
+    # generic fallback (optional)
+    "__default_decimal__": 4
+}
+def round_numeric_columns(df, precision_map):
+    """
+    Rounds numeric columns in a Spark DataFrame based on a precision map.
+    """
+    for field in df.schema.fields:
+        col_name = field.name
+        data_type = field.dataType
+
+        if isinstance(data_type, (DecimalType, DoubleType, FloatType)):
+            precision = precision_map.get(
+                col_name,
+                precision_map.get("__default_decimal__", None)
+            )
+
+            if precision is not None:
+                df = df.withColumn(
+                    col_name,
+                    round(col(col_name), precision)
+                )
+
+    return df
+
 def save_to_postgres(df, table_name, mode='overwrite'):
     """Save DataFrame to PostgreSQL"""
     try:
+        # Truncate old data
+        truncate_table(table_name)
+
+        # Round numeric columns based on precision map
+        df = round_numeric_columns(df, DECIMAL_PRECISION_MAP)
+        
+        # Write to PostgreSQL
         df.write \
+            .mode(mode) \
+            .option("truncate", "true") \
             .jdbc(
                 url=JDBC_URL,
                 table=f"analytics.{table_name}",
-                mode=mode,
                 properties=JDBC_PROPERTIES
             )
         print(f"  ✓ Saved to analytics.{table_name}")

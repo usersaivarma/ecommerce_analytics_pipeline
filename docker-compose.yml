@@ -43,7 +43,7 @@ services:
     networks:
       - ecommerce_network
     # Run ETL job and exit
-    command: python spark_jobs/main.py
+    command: python3 spark_jobs/main.py
 
   # FastAPI Backend
   api:
