@@ -13,7 +13,7 @@ This project implements a production-grade analytics pipeline for e-commerce dat
 - **Docker Orchestration**: All services containerized and orchestrated
 
 ## Dashboard
-![Streamlit Dashboard Image](data\dashboard_sample_view.png)
+![Streamlit Dashboard Image](data/dashboard_sample_view.png)
 
 ## 🏗️ Architecture
 
